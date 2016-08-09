@@ -1,7 +1,6 @@
 # Summary of python print command based on the book "Learn Python the hardway".
 # This is most useful for people from other script languages
 
-
 print "Mary had a little lamb."                 # 1. print doesn't have ;
 print "Its fleece was white as %s." % 'snow'    # 2. printf corresponding
 print "And everywhere that Mary went."
@@ -67,39 +66,3 @@ print ("% 2d" % (42))
 print ("%       2d" % (42))
 #  right aligned
 print ("%2d" % (42))
-
-''' Here are the output
-Mary had a little lamb.
-Its fleece was white as snow.
-And everywhere that Mary went.
-..........
-Cheese Burger
-Here are the days:  Mon Tue Wed Thu Fri Sat Sun
-Here are the months:  Jan
-Feb
-Mar
-Apr
-May
-Jun
-Jul
-Aug
-
-There's something going on here.
-With the three double-quotes.
-We'll be able to type as much as we like.
-Even 4 lines if we want, or 5, or 6.
-
-Double quote single quote
-This is a double quote " by single quote
-Art 1:   453, Price per Unit:    59.06
-Art 2:  +453, Price per Unit:    59.06
-Art 3: 453  , Price per Unit:    59.06
-Art 4:   453, Price per Unit:  59.0580
-Art 5:   453, Price per Unit:    59.06
-Art 6: 0X1C5, Price per Unit:    59.06
-+42
- 42
- 42
-42
-
-'''
